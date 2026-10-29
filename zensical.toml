@@ -1,0 +1,42 @@
+[project]
+site_name = "FIRST Robotics Team 238"
+site_url = "https://frc238.org/pit-display/"
+site_description = "MMHS FRC 238 pit display"
+site_author = "FIRST Robotics Team 238"
+copyright = "&copy; 2026 FIRST Robotics Team 238"
+
+nav = [
+  { "Home" = "index.md" },
+  { "Robot" = "robot.md" },
+  { "Team" = "team.md" },
+  { "Outreach" = "outreach.md" },
+  { "Sponsors" = "sponsors.md" },
+  { "Event" = "event.md" },
+  { "About this site" = "about.md" },
+]
+
+extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["javascripts/sponsors.js"]
+
+[project.theme]
+language = "en"
+font = false
+logo = "assets/logo-yellow.png"
+favicon = "assets/favicon.png"
+features = [
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.top",
+  "search.highlight",
+]
+
+[project.theme.palette]
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+
+[project.markdown_extensions]
+attr_list = {}
+def_list = {}
+md_in_html = {}
+pymdownx.superfences = {}
